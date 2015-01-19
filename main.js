@@ -21,6 +21,7 @@ if(sec === 60){
 	min++;
 	sec = 0;
 }
+
 document.getElementById("secDisplay").innerHTML = (sec);
 
 if(min === 60){

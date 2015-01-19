@@ -6,10 +6,18 @@
   height: 500px;
   background-color: lightgrey; }
   .box .clockBox {
-    padding-top: 30%; }
-    .box .clockBox .clock {
-      font-size: 200%;
-      text-align: center;
-      vertical-align: center; }
+    font-size: 400%;
+    padding-top: 30%;
+    padding-left: 40%; }
+    .box .clockBox .clockSec {
+      float: left; }
+    .box .clockBox .clockHour {
+      float: left; }
+    .box .clockBox .clockMin {
+      float: left; }
+    .box .clockBox .firstColon {
+      float: left; }
+    .box .clockBox .secondColon {
+      float: left; }
 
 /*# sourceMappingURL=main.css.map */
