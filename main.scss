@@ -1,24 +1,42 @@
 .box {
-	float:left;
-	margin-left:25%;
-	margin-top:15%;
+	
+	
+	background-color:lightblue;
+	
 	width:700px;
 	height:500px;
-	background-color:lightgrey;
+
+	margin:25%;
+	
 
 	.clockBox {
-		font-size:400%;
 
-		padding-top:30%;
-		padding-left:40%;
+		padding-left:225px;
+		padding-top:125px;
+
+		display:inline-block;
+
+		font-size:400%;
+		
+		
+
 		
 			.clockSec {
+				float:left;
+			}
+			.clockSecTens {
 				float:left;
 			}
 			.clockHour {
 				float:left;
 			}
+			.clockHourTens {
+				float:left;
+			}
 			.clockMin {
+				float:left;
+			}
+			.clockMinTens {
 				float:left;
 			}
 			.firstColon {

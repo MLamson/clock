@@ -1,19 +1,24 @@
 .box {
-  float: left;
-  margin-left: 25%;
-  margin-top: 15%;
+  background-color: lightblue;
   width: 700px;
   height: 500px;
-  background-color: lightgrey; }
+  margin: 25%; }
   .box .clockBox {
-    font-size: 400%;
-    padding-top: 30%;
-    padding-left: 40%; }
+    padding-left: 225px;
+    padding-top: 125px;
+    display: inline-block;
+    font-size: 400%; }
     .box .clockBox .clockSec {
+      float: left; }
+    .box .clockBox .clockSecTens {
       float: left; }
     .box .clockBox .clockHour {
       float: left; }
+    .box .clockBox .clockHourTens {
+      float: left; }
     .box .clockBox .clockMin {
+      float: left; }
+    .box .clockBox .clockMinTens {
       float: left; }
     .box .clockBox .firstColon {
       float: left; }
